@@ -12,6 +12,8 @@ namespace CleanArch.Domain.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public string ImageUrl { get; set; }
+        public string Class { get; set; }
+        public string MaximumCapacity { get; set; }
 
 
     }
